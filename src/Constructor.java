@@ -3,9 +3,10 @@ class Constructor{
     String food;
     String Name;
     //creating a parameterized constructor
-    Constructor(String a,String b){
-        Name = a;
-        food = b;
+    //usage of this pointer
+    Constructor(String Name,String food){
+        this.Name = Name;
+        this.food= food;
     }
     //method to display the values
     void show(){System.out.println(Name+" Loves to eat "+food);}
