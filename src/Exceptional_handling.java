@@ -6,6 +6,9 @@ public class Exceptional_handling {
             int z = x/y;
         }catch(Exception z)
         {System.out.println("Divisible by zero");}
+        finally {
+            System.out.println("finally code is executed");
+        }
         System.out.println("rest of the code...");
     }
 }
