@@ -27,7 +27,7 @@ public class Calculator {
         System.out.println("The sum of two numbers is : " + Sum(var[0],var[1]));
         //Second two values taken for sub
         //object function call
-        System.out.println("The subtraction of two numbers is : " + myObj.Sub(var[2], var[3]));
+        System.out.println("The subtraction of two numbers is: " + myObj.Sub(var[2], var[3]));
 
     }
 }
